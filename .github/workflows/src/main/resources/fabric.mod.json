@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "apexvisuals",
+  "version": "${version}",
+  "name": "ApexVisuals",
+  "description": "Visual enhancements mod with Red & Black aesthetic",
+  "authors": ["ApexTeam"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.apexvisuals.ApexVisuals"
+    ]
+  },
+  "mixins": [
+    "apexvisuals.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.4"
+  }
+}
